@@ -11,7 +11,7 @@ import pool from "./src/config/db.js";
 const startServer = async () => {
   try {
   
-    await pool.query("SELECT NOW()");
+     await pool.query("SELECT 1");
     //  server
     const PORT = process.env.PORT;
     app.listen(PORT, () => {
@@ -23,3 +23,4 @@ const startServer = async () => {
   }
 };
 startServer();
+   

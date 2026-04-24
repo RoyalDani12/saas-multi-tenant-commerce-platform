@@ -38,3 +38,6 @@ mongodb_data/
 .idea/
 .DS_Store
 Thumbs.db
+/src/generated/prisma
+
+/generated/prisma
